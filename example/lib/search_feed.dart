@@ -1,5 +1,5 @@
 import 'package:example/data_model.dart';
-import 'package:firestore_search/firestore_search.dart';
+import 'package:firestore_search_131/firestore_search.dart';
 import 'package:flutter/material.dart';
 
 class SearchFeed extends StatefulWidget {

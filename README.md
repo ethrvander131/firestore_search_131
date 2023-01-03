@@ -1,4 +1,4 @@
-# Firestore Search Scaffold - firestore_search
+# Firestore Search Scaffold - firestore_search_131
 
 This package helps developers in implementation of search on Cloud FireStore. This package comes with the implementation of widgets essential  for  performing search on a database.
 
@@ -121,7 +121,7 @@ FirestoreSearchResults.builder(
 
 ## Implementation:
 
-* Import `import 'package:firestore_search/firestore_search.dart';`
+* Import `import 'package:firestore_search_131/firestore_search_131.dart';`
 
 * Create a data model, for the data you want retrieve from Cloud FireStore _(Your data model class must contain a function to convert QuerySnapshot from Cloud Firestore to a list of objects of your data model)_
 
