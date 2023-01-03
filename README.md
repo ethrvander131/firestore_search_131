@@ -2,11 +2,13 @@
 
 This package helps developers in implementation of search on Cloud FireStore. This package comes with the implementation of widgets essential  for  performing search on a database.
 
+Forked from [asadmatic](https://github.com/asadamatic/firestore_search)
+
 # [Live Web Demo](https://asadamatic-pub-packages.web.app)
 
 
 ### Make sure to use `firestore_core` in your project
-### **Depends on `cloud_firestore: ^3.1.4`**
+### **Depends on `cloud_firestore: ^4.2.0`**
 ### **Depends on `get: ^4.3.8`**
 
 <br>
@@ -29,7 +31,6 @@ This package helps developers in implementation of search on Cloud FireStore. Th
 
 [![Pub Version](https://img.shields.io/pub/v/firestore_search?logo=flutter&style=for-the-badge)](https://pub.dev/packages/firestore_search)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/asadamatic/firestore_search/pub_publish?logo=github&style=for-the-badge)
-[![Github Stars](https://img.shields.io/github/stars/asadamatic/firestore_search?logo=github&style=for-the-badge)](https://github.com/asadamatic/firestore_search)
 [![GitHub](https://img.shields.io/github/license/asadamatic/firestore_search?logo=open+source+initiative&style=for-the-badge)](https://github.com/asadamatic/firestore_search/blob/master/LICENSE)
 <!-- [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-FC60A8?logo=awesome-lists&style=for-the-badge)](https://github.com/Solido/awesome-flutter#widgets) -->
 
@@ -41,7 +42,7 @@ This package helps developers in implementation of search on Cloud FireStore. Th
 
 
 ## Simple Usage
-To use this plugin, add `firestore_search` as a
+To use this plugin, add `firestore_search_131` as a
 [dependency in your pubspec.yaml file](https://pub.dev/packages/firestore_search/install).
 
 
@@ -121,7 +122,7 @@ FirestoreSearchResults.builder(
 
 ## Implementation:
 
-* Import `import 'package:firestore_search_131/firestore_search_131.dart';`
+* Import `import 'package:firestore_search_131/firestore_search.dart';`
 
 * Create a data model, for the data you want retrieve from Cloud FireStore _(Your data model class must contain a function to convert QuerySnapshot from Cloud Firestore to a list of objects of your data model)_
 
